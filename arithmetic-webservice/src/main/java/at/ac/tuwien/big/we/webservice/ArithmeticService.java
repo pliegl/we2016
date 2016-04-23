@@ -155,6 +155,7 @@ public class ArithmeticService {
     Endpoint endpoint = Endpoint.publish(
         "http://localhost:8080/arithmeticservice",
         new ArithmeticService());
+    LOG.debug("Access service under http://localhost:8080/arithmeticservice?wsdl");
   }
 
 }
